@@ -1,0 +1,9 @@
+{
+	"name": "cs1-azuredatafactory-dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f69c4a70-041b-4b0a-8a88-e7675586c3a1",
+		"tenantId": "f365e77f-2d81-4093-a9c6-989e5d3b8cd7"
+	}
+}
