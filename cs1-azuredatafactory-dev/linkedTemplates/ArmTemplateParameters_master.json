@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "cs1-azuredatafactory-dev"
+		},
+		"AzureDataLakeStorage_sink_accountKey": {
+			"value": ""
+		},
+		"ls_azuresqlda_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://csadlsgen2accountdev.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_tenant": {
+			"value": "f365e77f-2d81-4093-a9c6-989e5d3b8cd7"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_servicePrincipalId": {
+			"value": "dcb06972-306b-4815-9fb9-cb69131f3ae7"
+		},
+		"AzureDataLakeStorage_sink_properties_typeProperties_url": {
+			"value": "https://csadlsgen2accountdev.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://cs-keyvault24-dev.vault.azure.net/"
+		},
+		"Rest_api_properties_typeProperties_url": {
+			"value": "https://airlabs.co/api/v9/airlines"
+		},
+		"dev_ls_adlsgen2_properties_typeProperties_url": {
+			"value": "https://devadlssink.dfs.core.windows.net/"
+		},
+		"dev_ls_adlsgen2_properties_typeProperties_tenant": {
+			"value": "f365e77f-2d81-4093-a9c6-989e5d3b8cd7"
+		},
+		"dev_ls_adlsgen2_properties_typeProperties_servicePrincipalId": {
+			"value": "dcb06972-306b-4815-9fb9-cb69131f3ae7"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
